@@ -9,6 +9,6 @@
 4. Save computed NumPy arrays as .npy files.
 5. ## **II.** Numpy Initialization
 6. ```python
-def rotate_word(text):
-    return text[1:] + text[0]
+import numpy as np
 ```
+## **III.** Programming Problems
