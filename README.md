@@ -84,7 +84,6 @@ np.float64(0.0)
 ```python
 np.std(X_normalized)
 ```
-np.float64(0.0)
 ```
 np.float64(0.9999999999999999)
 ```
