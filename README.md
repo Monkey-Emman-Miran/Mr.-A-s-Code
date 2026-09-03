@@ -84,12 +84,14 @@ np.float64(0.0)
 ```python
 np.std(X_normalized)
 ```
+np.float64(0.0)
 ```
 np.float64(0.9999999999999999)
 ```
 ```python
 np.save("X_normalized.npy", X_normalized)
 ```
+
 >  ##  **B.** Cubes Divisible by 4 Problem
 >Using NumPy, create the first 100 positive integer, cube every element, and reshape the result into a 10 × 10 ndarray named C. Thus, C begins with 1^3 and ends with 100^3.
 ><br><br>
