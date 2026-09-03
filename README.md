@@ -19,3 +19,11 @@ np.random.seed(2112)
 ```python
 X = np.random.randint(10, 101, size=(5, 5))
 ```
+> Normalize the complete array using:
+> Z = X − ¯x / σ 
+><br>where x is the mean of all 25 elements and σ is their population standard deviation as returned by NumPy’s default std() call. Store the normalized array in X_normalized.
+> <br><br>
+> Required checks: Display X, X normalized, its mean, and its standard deviation. Up to floating-
+point rounding, the normalized mean must be 0 and the normalized standard deviation must be 1.
+Save the normalized array as:<br>
+> **X_normalized.npy**
