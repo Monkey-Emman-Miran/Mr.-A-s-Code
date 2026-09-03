@@ -2,3 +2,13 @@
 ## <center> __ECE 2112: Advanced Computer Programming and Algorithms__ </center>
 # <center> __EXPERIMENT 1: INTRODUCTION TO PYTHON PROGRAMMING__ </center> 
 #### Emmanuelle D.G. Miran| 2ECE-C
+## **I.** Intended Learning Outcomes
+1. Create and reshape NumPy arrays using appropriate NumPy functions;
+2. Perform vectorized numerical operations on an ndarray;
+3. Compute array statistics and use Boolean conditions to select elements; an
+4. Save computed NumPy arrays as .npy files.
+5. ## **II.** Numpy Initialization
+6. ```python
+def rotate_word(text):
+    return text[1:] + text[0]
+```
