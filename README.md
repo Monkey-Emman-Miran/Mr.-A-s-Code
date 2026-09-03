@@ -153,12 +153,6 @@ array([      8,      64,     216,     512,    1000,    1728,    2744,
        1000000])
 ```
 ```python
-np.size(div_by_4)
-```
-```
-np.size(div_by_4)
-```
-```python
 np.save("div_by_4.npy", div_by_4)
 ```
 >  ##  **C.** Above-Mean Squares Problem
