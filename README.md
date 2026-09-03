@@ -7,9 +7,15 @@
 2. Perform vectorized numerical operations on an ndarray;
 3. Compute array statistics and use Boolean conditions to select elements; an
 4. Save computed NumPy arrays as .npy files.
-5. ## **II.** Numpy Initialization
-6. ```python
-import numpy as np```
 
-
-## **III.** Programming Problems
+## **II.** Numpy Initialization
+```python
+import NumPy as np
+```
+## **III.** Programming Problems   
+>  ##  **A.** REPRODUCIBLE NORMALIZATION PROBLEM
+> Create a reproducible random 5 × 5 integer ndarray named X. Use the following two statements before performing any calculation:
+np.random.seed(2112)
+```python
+X = np.random.randint(10, 101, size=(5, 5))
+```
