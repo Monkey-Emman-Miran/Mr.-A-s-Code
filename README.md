@@ -9,6 +9,7 @@
 4. Save computed NumPy arrays as .npy files.
 5. ## **II.** Numpy Initialization
 6. ```python
-import numpy as np
-```
+import numpy as np```
+
+
 ## **III.** Programming Problems
