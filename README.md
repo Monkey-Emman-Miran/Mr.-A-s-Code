@@ -37,11 +37,45 @@ Save the normalized array as:<br>
 >><br><br>
 >> For the condition we need to meet with this problem, we need to be able to save this as **X_normalized.npy** by using the function **np.save()** in this problem's case we use **("X_normalized.npy", X_normalized)** to tell the function to save the file as **X_normalized.npy** and the array that we will use would be be the **X_normalized** that we saved earlier.
 > ## Code & Outputs
+
+```python
+rotate_word("python")
+```
+```'ythonp'```
+```python
+rotate_word("logic")
+```
+```'ogicl'```
+```
+```python
+rotate_word("Code")
+```
+```'odeC'```
+```python
+rotate_word("A")
+```
+```'A'```
+
+
+
+
+
+
+
+
+
 ```python
 np.random.seed(2112)
 X = np.random.randint(10, 101, size= (5, 5))
 X
 ```
+```
+array([[48, 11, 15, 67, 21],
+       [11, 41, 13, 66, 24],
+       [71, 79, 53, 67, 70],
+       [77, 35, 91, 19, 96],
+       [35, 54, 37, 41, 17]], dtype=int32)```
+
 ```python
 mean_X = X.mean()
 mean_X 
